@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Author: Julian Dekker
+
+sudo netstat -pltn | awk '{split($7,a, "/"); print a[1]}' | tail -n +3 | xargs -L1 sudo kill
