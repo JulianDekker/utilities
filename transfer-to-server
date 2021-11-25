@@ -1,0 +1,15 @@
+#!/bin/bash
+
+USER= #USER
+SERVER= #SERVER
+DEFAULTLOC="/" #Default location 
+
+if [ "$2" == "" ]; 
+then
+	scp $1 $USER@$SERVER:$DEFAULTLOC;
+	echo "Transferred $1 to $DEFAULTLOC on $SERVER"
+else
+	scp $1 $USER@$SERVER:$2;
+	echo "Transferred $1 to $2 on $SERVER"
+fi
+
