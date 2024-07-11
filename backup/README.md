@@ -9,12 +9,6 @@ Backups will be stored at `/exports/archive/molepi-lts/backups/`. To save LTS sp
 ## backup frequency
 Backups are updated every day at 01:00. 
 
-## Restoring data from backup
-To restore data from the backup you need to extract the .tar.gz. You can use the following command to do so:
-
-### example command for restoring from backup:
-`mkdir -p /exports/molepi/MOLEPI_PROJECTS/ExampleProject_JulianDekker_220901_Aging/ \&\& tar -xzf /exports/archive/molepi-lts/backups/ExampleProject_JulianDekker_220901_Aging.tar.gz -C /exports/molepi/MOLEPI_PROJECTS/ExampleProject_JulianDekker_220901_Aging/ --strip-components=1 `
-
 ## creating a backup using `make_backup.sh`
 The make_backup.sh script supports two arguments: the 'folder path' to backup and the end_date for the backup script in the format (YYYY-MM-DD).
 
@@ -37,6 +31,12 @@ The script has one argument, the path to the directory to stop backing up. After
 ### Example usage:
 `sh remove_backup.sh /exports/molepi/MOLEPI_PROJECTS/ExampleProject_JulianDekker_220901_Aging/`
 Are you sure you want to REMOVE the backup? This will also delete the backup stored at /exports/archive/molepi-lts/backups. Type 'CONTINUE' to continue.. `CONTINUE`
+
+## Restoring data from backup
+To restore data from the backup you need to extract the .tar.gz. for this you can use the `tar -xzf [directory]` command. Below is an example script for restoring the backup to the same location it was created from. 
+
+### example command for restoring from backup:
+`mkdir -p /exports/molepi/MOLEPI_PROJECTS/ExampleProject_JulianDekker_220901_Aging/ \&\& tar -xzf /exports/archive/molepi-lts/backups/ExampleProject_JulianDekker_220901_Aging.tar.gz -C /exports/molepi/MOLEPI_PROJECTS/ExampleProject_JulianDekker_220901_Aging/ --strip-components=1 `
 
 ## checking the currently active backups
 You can check the backups by using the command: `crontab -l`. This will result in a list of currently active backup jobs. The resulting information will be something like this:
