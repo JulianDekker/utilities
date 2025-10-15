@@ -11,9 +11,10 @@
 
 current_date_epoch=$(date +%s)
 
-du -h --max-depth=$2 $1 > logs/custom_storage_$(basename $1)_"$current_data_epoch".log
+du -h --max-depth=$2 $1 | sort -hr > logs/custom/custom_storage_$(basename $1)_"$current_data_epoch".log
 
 #echo "$current_date_epoch" > last_check.txt
 #sh cronjob.sh
+sh git_push.sh logs/custom/custom_storage_$(basename $1)_"$current_data_epoch".log
 
 
