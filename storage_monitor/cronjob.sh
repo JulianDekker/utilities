@@ -4,12 +4,12 @@
 input_epoch=$(cat last_check.txt)
 echo $input_epoch
 current_date_epoch=$(date +%s)
-three_weeks_ago=$((current_date_epoch - 3 * 7 * 24 * 3600))
+two_weeks_ago=$((current_date_epoch - 2 * 7 * 24 * 3600))
 run_dir='/home/jjdekker1/utilities/storage_monitor/'
 
 cd $run_dir
 
-if (( $input_epoch <= $three_weeks_ago )); then	
+if (( $input_epoch <= $two_weeks_ago )); then	
     echo "Updating directory list"
     sbatch check_molepi_storage.sh $run_dir
     #sbatch check_molepi_users_projects.sh $run_dir
@@ -31,6 +31,7 @@ if [ "$USAGE_RESEARCH" -gt 80 ]; then
   echo "Warning: Disk usage for the research storage is above 80% ($USAGE_RESEARCH%)"
   df -h /exports/molepi > logs/molepi_research_storage.log
   echo -e "\n\n" >> logs/molepi_research_storage.log
+  sh git_push.sh molepi_research_storage.log
   # Send a custom email at the end of the job
   {
     echo "Subject: Warning: Disk usage for the research storage is above 80% ($USAGE_RESEARCH%)"
@@ -43,6 +44,7 @@ else
   echo "Report: Disk usage for the research storage is $USAGE_RESEARCH%"
   df -h /exports/molepi > logs/molepi_research_storage.log
   echo -e "\n\n" >> logs/molepi_research_storage.log
+  sh git_push.sh molepi_research_storage.log
   # Send a custom email at the end of the job
   {
     echo "Subject: Report: Disk usage for the research storage is $USAGE_RESEARCH%"
@@ -58,6 +60,7 @@ if [ "$USAGE_ARCHIVE" -gt 90 ]; then
   echo "Warning: Disk usage for the archive storage is above 90% ($USAGE_ARCHIVE%)"
   df -h /exports/archive/molepi-lts > logs/molepi_archive_storage.log
   echo -e "\n\n" >> logs/molepi_archive_storage.log
+  sh git_push.sh molepi_archive_storage.log
   # Send a custom email at the end of the job
   {
     echo "Subject: Warning: Disk usage for the archive storage is above 90% ($USAGE_ARCHIVE%)"
@@ -70,6 +73,7 @@ else
   echo "Report: Disk usage for the archive storage is $USAGE_ARCHIVE%"
   df -h /exports/archive/molepi-lts > logs/molepi_archive_storage.log
   echo -e "\n\n" >> logs/molepi_archive_storage.log
+  sh git_push.sh molepi_archive_storage.log
   # Send a custom email at the end of the job
   {
     echo "Subject: Report: Disk usage for the archive storage is $USAGE_ARCHIVE%"
@@ -81,6 +85,6 @@ else
 
 fi
 
-#push all changes to git
-sh git_push.sh
+#push all custom changes to git
+sh git_push.sh custom/*
 

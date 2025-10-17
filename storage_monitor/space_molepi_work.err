@@ -14602,4 +14602,4 @@ du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Resul
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02020895T2/CPCT02020895T2_STARtmp': Permission denied
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02120180T/CPCT02120180T_STARtmp': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   9394714..b388492  main -> main
+   d89105a..30924b1  main -> main

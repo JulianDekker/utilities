@@ -1,5 +1,5 @@
 64T	/exports/archive/molepi-lts/
-31T	/exports/archive/molepi-lts/raw
+32T	/exports/archive/molepi-lts/raw
 20T	/exports/archive/molepi-lts/processing
 11T	/exports/archive/molepi-lts/results
 8.5T	/exports/archive/molepi-lts/raw/LLS-sibs
@@ -57,7 +57,7 @@
 11G	/exports/archive/molepi-lts/results/CEPH
 11G	/exports/archive/molepi-lts/raw/LLS-sibs-UPDATE
 11G	/exports/archive/molepi-lts/processing/RegMedXb
-8.9G	/exports/archive/molepi-lts/raw/LLS-offpart
+9.0G	/exports/archive/molepi-lts/raw/LLS-offpart
 8.4G	/exports/archive/molepi-lts/processing/MetaboChip
 6.1G	/exports/archive/molepi-lts/results/MetaboChip
 5.2G	/exports/archive/molepi-lts/processing/LLS-sibs+BBMRI96
