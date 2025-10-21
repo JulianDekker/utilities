@@ -8035,7 +8035,7 @@ du: cannot read directory '/exports/archive/molepi-lts/project_archive/groep_har
 du: cannot read directory '/exports/archive/molepi-lts/project_archive/groep_hart/project104702_deel2/project104702_deel2/excerpt_output/sample_104702-001-379_R1.fastq/endogenousAlignments_genomeUnmapped_transcriptome__STARtmp': Permission denied
 du: cannot access '/exports/archive/molepi-lts/Project_Backups/LLSCauseOfDeathPRSs_NielsVanDenBerg_202301_Aging': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   53b71c6..df5cb25  main -> main
+   22d4072..6a34864  main -> main
 du: cannot read directory '/exports/molepi/swesselman/miniconda3/pkgs/ncurses-6.2-he6710b0_1d9plp4u8': Permission denied
 du: cannot read directory '/exports/molepi/swesselman/miniconda3/envs/main/share/jupyter/nbconvert/templates/html': Permission denied
 du: cannot read directory '/exports/molepi/Molepi-Mstat-Projects/PRS-Pipeline': Permission denied
@@ -24010,6 +24010,6 @@ du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Resul
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02020895T2/CPCT02020895T2_STARtmp': Permission denied
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02120180T/CPCT02120180T_STARtmp': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   df5cb25..1dce4ac  main -> main
+   6a34864..8191362  main -> main
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   1dce4ac..d89105a  main -> main
+   8191362..a7dce6d  main -> main
