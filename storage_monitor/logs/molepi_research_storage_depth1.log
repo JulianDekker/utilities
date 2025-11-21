@@ -4,22 +4,21 @@
 5.3T	/exports/molepi/RAAK_GARP_RNA_Seq
 3.7T	/exports/molepi/Twinlife
 3.4T	/exports/molepi/Phase_HRC
-3.2T	/exports/molepi/DCS_GWAS_Data
 3.1T	/exports/molepi/Phase
+3.1T	/exports/molepi/DCS_GWAS_Data
 3.0T	/exports/molepi/GoNL
 2.6T	/exports/molepi/GOTO
+2.2T	/exports/molepi/MOLEPI_PROJECTS
 2.2T	/exports/molepi/GWAS-GO_meta
 2.0T	/exports/molepi/IKHATRI
 1.8T	/exports/molepi/pcputter
+1.8T	/exports/molepi/HWFS
 1.7T	/exports/molepi/SCIMAP
 1.7T	/exports/molepi/fabogaards
-1.6T	/exports/molepi/HWFS
-1.3T	/exports/molepi/MOLEPI_PROJECTS
 1.2T	/exports/molepi/MiSeq-linkage-peak-chr13
+1.1T	/exports/molepi/RSC_BIOS
 1.1T	/exports/molepi/hgdehaan
 1.1T	/exports/molepi/GWAS_endoPhenotypes
-1014G	/exports/molepi/DCS_Leen
-1004G	/exports/molepi/RSC_BIOS
 888G	/exports/molepi/LLS
 867G	/exports/molepi/other_genomes
 855G	/exports/molepi/GIFT_Overlap_QC_1000G
@@ -44,6 +43,7 @@
 254G	/exports/molepi/HumanVariationPanel_CEU_1000G
 251G	/exports/molepi/ljgraansma
 237G	/exports/molepi/referencePanels
+217G	/exports/molepi/DCS_Leen
 206G	/exports/molepi/RAAK_LLS
 191G	/exports/molepi/Switchbox_GENEAs
 182G	/exports/molepi/dbizzarri
@@ -88,7 +88,6 @@
 688M	/exports/molepi/RNA_seq_yotam
 533M	/exports/molepi/fos2018
 464M	/exports/molepi/450k annotations
-106M	/exports/molepi/DIRECT_WP2_GWAS
 92M	/exports/molepi/MOBILE_RA
 61M	/exports/molepi/MolEpiTools
 48M	/exports/molepi/psbferreira

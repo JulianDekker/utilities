@@ -28,7 +28,7 @@ echo "--------------------------------------------------------"
 # Use 'cp -r' to recursively copy all files and subdirectories.
 # The `.` at the end of the source path ensures the contents are copied,
 # not the directory itself.
-cp -r "$ORIG_DIR/." "$COPY_DIR"
+cp -r "$ORIG_DIR/." "$COPY_DIR" --update
 
 
 # Check if the copy was successful
@@ -48,11 +48,10 @@ echo "--------------------------------------------------------"
 find "$ORIG_DIR" -type f | while read -r orig_file; do
 # Get the relative path of the file from the original directory.
 # This is done by removing the original directory path from the full file path.
-relative_path="${orig_file#$ORIG_DIR/}"
+relative_path=$(echo "$orig_file" | sed "s|^$ORIG_DIR||")
 
 # Construct the full path to the corresponding file in the copied directory.
 copy_file="$COPY_DIR/$relative_path"
-
 # Check if the corresponding file exists in the copied directory.
 if [ ! -f "$copy_file" ]; then
 	echo "MISSING: $relative_path (File does not exist in the copied directory)"

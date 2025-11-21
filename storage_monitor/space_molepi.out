@@ -1,17 +1,17 @@
-[main 6a34864] Automatic update: 21 October 2025
- 1 file changed, 9 insertions(+), 9 deletions(-)
-[main 8191362] Automatic update: 21 October 2025
- 1 file changed, 2 insertions(+), 2 deletions(-)
-1761037936
-Submitted batch job 22414555
+[main 49a3063] Automatic update: 21 November 2025
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+[main e4c2434] Automatic update: 21 November 2025
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+1763735856
+Submitted batch job 22912140
 Warning: Disk usage for the research storage is above 80% (84%)
-[main a7dce6d] Automatic update: 21 October 2025
- 1 file changed, 1 insertion(+), 1 deletion(-)
-Warning: Disk usage for the archive storage is above 90% (95%)
 On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+Report: Disk usage for the archive storage is 72%
+[main 6f416ae] Automatic update: 21 November 2025
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 On branch main
 Your branch is up to date with 'origin/main'.
 
