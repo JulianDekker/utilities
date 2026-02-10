@@ -19,6 +19,9 @@ pathvar="/exports/molepi/MOLEPI_GUESTS/"
 # Copy folder and rename
 cp -r "/exports/molepi/MOLEPI_PROJECTS/ExampleProject_JulianDekker_220901_Aging/" "$pathvar/$new_folder"
 
+# Edit variables
+cat "$pathvar/$new_folder/README.txt" | sed "s|<date>|$(date +%F)|g" | sed "s|Example|$new_folder|g" 
+
 # Set permissions to a different group
 chgrp -R "5-A-SHARK-molmed-guests" "$pathvar/$new_folder"
 chmod -R g+rwX "$pathvar/$new_folder"

@@ -48,22 +48,22 @@ echo "--------------------------------------------------------"
 find "$ORIG_DIR" -type f | while read -r orig_file; do
 # Get the relative path of the file from the original directory.
 # This is done by removing the original directory path from the full file path.
-relative_path=$(echo "$orig_file" | sed "s|^$ORIG_DIR||")
+relative_path=$(echo """$orig_file""" | sed "s|^$ORIG_DIR||")
 
 # Construct the full path to the corresponding file in the copied directory.
-copy_file="$COPY_DIR/$relative_path"
+copy_file="""$COPY_DIR/$relative_path"""
 # Check if the corresponding file exists in the copied directory.
-if [ ! -f "$copy_file" ]; then
-	echo "MISSING: $relative_path (File does not exist in the copied directory)"
+if [ ! -f """$copy_file""" ]; then
+	echo "MISSING: $ORIG_DIR/$relative_path (File does not exist in the copied directory)"
 	continue # Skip to the next file if it's missing.
 fi
 
 # Calculate the MD5 checksum of the original file.
 # 'md5sum' outputs the checksum and filename. 'awk' extracts only the checksum.
-orig_md5=$(md5sum "$orig_file" | awk '{print $1}')
+orig_md5=$(md5sum """$orig_file""" | awk '{print $1}')
 
 # Calculate the MD5 checksum of the copied file.
-copy_md5=$(md5sum "$copy_file" | awk '{print $1}')
+copy_md5=$(md5sum """$copy_file""" | awk '{print $1}')
 
 # Compare the two checksums.
 if [ "$orig_md5" == "$copy_md5" ]; then
