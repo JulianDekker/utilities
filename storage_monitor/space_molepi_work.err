@@ -3,7 +3,7 @@ du: cannot read directory '/exports/molepi/MOLEPI_PROJECTS/FamineDNAm_JazminTaeu
 du: cannot read directory '/exports/molepi/MOLEPI_PROJECTS/XOmicsDemonstratorMetaboHealthExtremes_DBizzarri_202310_Aging/Raw_data/Protein_data': Permission denied
 du: cannot read directory '/exports/molepi/MOLEPI_PROJECTS/XOmicsDemonstratorMetaboHealthExtremes_DBizzarri_202310_Aging/Raw_data/Luminex_data': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   5cf567c..ddc1459  main -> main
+   1614d85..9fadf02  main -> main
 du: cannot read directory '/exports/molepi/users/YFMRamos/Richard': Permission denied
 du: cannot read directory '/exports/molepi/users/aakakourou-home/.ssh': Permission denied
 du: cannot read directory '/exports/molepi/users/aakakourou-home/.cache': Permission denied
@@ -14435,4 +14435,4 @@ du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Resul
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02020895T2/CPCT02020895T2_STARtmp': Permission denied
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02120180T/CPCT02120180T_STARtmp': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   ddc1459..7b8e528  main -> main
+   9fadf02..b816b38  main -> main

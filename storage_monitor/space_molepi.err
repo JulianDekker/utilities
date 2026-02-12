@@ -8036,7 +8036,7 @@ du: cannot read directory '/exports/archive/molepi-lts/project_archive/groep_har
 du: cannot read directory '/exports/archive/molepi-lts/project_archive/groep_hart/project104702_deel2/project104702_deel2/excerpt_output/sample_104702-001-379_R1.fastq/endogenousAlignments_genomeUnmapped_transcriptome__STARtmp': Permission denied
 du: cannot access '/exports/archive/molepi-lts/Project_Backups/LLSCauseOfDeathPRSs_NielsVanDenBerg_202301_Aging': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   b241311..266f5b3  main -> main
+   7b8e528..e244973  main -> main
 du: cannot read directory '/exports/molepi/swesselman/miniconda3/pkgs/ncurses-6.2-he6710b0_1d9plp4u8': Permission denied
 du: cannot read directory '/exports/molepi/swesselman/miniconda3/envs/main/share/jupyter/nbconvert/templates/html': Permission denied
 du: cannot read directory '/exports/molepi/Molepi-Mstat-Projects/PRS-Pipeline': Permission denied
@@ -9386,6 +9386,26 @@ du: cannot read directory '/exports/molepi/HWFS/mjtaeubert/Metabolomics/Nighting
 du: cannot read directory '/exports/molepi/HWFS/mjtaeubert/OmicsPrint/.Rproj.user/52D935BF/viewer-cache': Permission denied
 du: cannot read directory '/exports/molepi/HWFS/mjtaeubert/OmicsPrint/.Rproj.user/51B57DE5/viewer-cache': Permission denied
 du: cannot read directory '/exports/molepi/HWFS/mjtaeubert/HWFS_population/.Rproj.user/455D7B75/viewer-cache': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/09 CLINIC EXAMINATIONS CODING SHEET FORMS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/07 DESCRIPTIVES AND DATA DICTIONARY Clinical Examinations': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/16 FAMILIAL RELATIONSHIP AND SAMPLE ID QUALITY CONTROL': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/13 DETAIL OF F6 PSYCHOMETRIC COGNITION TESTS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/02 LUMC PROPOSAL TO CARRY OUT HUNGER WINTER STUDY': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/08 PNADLABWORK2 VARIABLES': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/15 PROCESSED VARIABLES': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/11 DETAIL OF V1 TO V4 RESULTS + VL5 SQUASH PHYSICAL ACTIVITY QUESTIONNAIRE AND VL6 FOOD FREQUENCY QUESTIONNAIRE': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/17 NIGHTINGALE LIPID BIOMARKER ASSAY': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/00 DHWFS ANALYSIS FILES DESCRIPTIONS AND FREQUENCIES': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/12 DETAIL OF F5 ECG DATA COLLECTION PROTOCOLS AND RESULTS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/05 HOF DATA CLEANING AND LMP ASSESSMENT': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/01 GRANT APPLICATIONS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/19 PDF LISTINGS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/14 DETAIL OF F7 LABORATORY COLLECTIONS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/18 CELLCOUNTS AND CLOCKS': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/06 DESCRIPTIVES AND DATA DICTIONARY Telephone Interviews': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/03 PHONE INTERVIEW QUESTIONNAIRE + VRAGENLIJST HONGER WINTER STUDIE': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/04 VRAGENLIJST HONGERWINTER STUDIE': Permission denied
+du: cannot read directory '/exports/molepi/HWFS/tbkuipers/documentation/10 DETAIL OF F1 TO F4 RESULTS': Permission denied
 du: cannot read directory '/exports/molepi/HWFS/tbkuipers/epigentic_clocks/.Rproj.user/52D935BF/viewer-cache': Permission denied
 du: cannot read directory '/exports/molepi/HWFS/tbkuipers/opal-data/01_datafiles': Permission denied
 du: cannot read directory '/exports/molepi/HWFS/tbkuipers/opal-data/.Rproj.user/52D935BF/viewer-cache': Permission denied
@@ -23843,6 +23863,4 @@ du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Resul
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02020895T2/CPCT02020895T2_STARtmp': Permission denied
 du: cannot read directory '/exports/molepi/users/Roderick/LCCO/Hartwig/003_Results/003_RNAseq/CPCT02120180T/CPCT02120180T_STARtmp': Permission denied
 To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   266f5b3..7b3585e  main -> main
-To git.lumc.nl:jjdekker1/shark-storage-logs.git
-   7b3585e..5cf567c  main -> main
+   e244973..1614d85  main -> main

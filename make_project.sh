@@ -20,7 +20,9 @@ pathvar="/exports/molepi/MOLEPI_PROJECTS/"
 cp -r "$pathvar/ExampleProject_JulianDekker_220901_Aging/" "$pathvar/$new_folder"
 
 # Edit variables
-cat "$pathvar/$new_folder/README.txt" | sed "s|<date>|$(date +%F)|g" | sed "s|Example|$new_folder|g"
+cat "$pathvar/$new_folder/README.txt" | sed "s|<date>|$(date +%F)|g" | sed "s|Example|$new_folder|g" > "$pathvar/$new_folder/README.txt.tmp"
+mv "$pathvar/$new_folder/README.txt.tmp" "$pathvar/$new_folder/README.txt"
+
 
 # Set permissions to a different group
 chgrp -R "5-A-SHARK-molmed" "$pathvar/$new_folder"
